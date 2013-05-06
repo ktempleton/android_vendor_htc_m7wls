@@ -17,4 +17,6 @@ LOCAL_PATH := vendor/htc/m7wls
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/system/lib/libril.so:system/lib/libril.so \
     $(LOCAL_PATH)/proprietary/system/lib/libril-qc-qmi-1.so:system/lib/libril-qc-qmi-1.so \
-    $(LOCAL_PATH)/proprietary/system/lib/libril-qcril-hook-oem.so:system/lib/libril-qcril-hook-oem.so
+    $(LOCAL_PATH)/proprietary/system/lib/libril-qcril-hook-oem.so:system/lib/libril-qcril-hook-oem.so \
+    $(LOCAL_PATH)/proprietary/system/lib/hw/nfc.m7wls.so:system/lib/hw/nfc.m7wls.so \
+    $(LOCAL_PATH)/proprietary/system/lib/hw/sensors.m7wls.so:system/lib/hw/sensors.m7wls.so
